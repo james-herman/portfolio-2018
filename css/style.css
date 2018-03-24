@@ -1,3 +1,161 @@
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+img { max-width: 100%; border: 0; }
+audio, canvas, iframe, img, svg, video { vertical-align: middle; } /* Remove gaps between elements */
+
+/* Fix issue with font-weight not
+working in Chrome */
+* {-webkit-font-smoothing: antialiased;}
+
+
+/*
+
+For headlines and bold:
+font-family: 'Lato', sans-serif;
+
+For body text:
+font-family: 'Roboto', sans-serif;
+
+colors:
+light #62727b
+mid #37474f
+dark #102027
+
+*/
+
+
+ a {
+	text-decoration: none;
+		
+}
+ul {
+	list-style-type: none;
+}
+
+
+
 body {
+	background-color: #e2f1f8;
+}
+/* Nav */
+
+nav {
+	background-color: #102027;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	padding: 20px;
+}
+
+nav a {
+	color: white;
+}
+
+
+/* Headline Div */
+
+.main-content {
+	background-color: white; 
+	padding: 40px 5%;
+	margin-bottom: 50px;
+	
+	
+
+}
+h1 {
+
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	font-size: 28px;
+	color: black;
+	
+}
+.text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 10px 0;
+	color: black;
+}
+.contact-links {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.contact-links div {
+	display: inline-block;
+	background-color: black;
+	padding: 8px;
+
+
+}
+.button-icon {
+	height: 20px;
+	width: 20px;
+}
+.contact-links a {
+	font-weight: 400;
+	color: white;
+}
+
+
+
+/* Work */
+
+.projects-container {
+	padding: 0 5%;
+	
+	
+
+}
+
+
+.project {
 	background-color: white;
+	margin-bottom: 50px;
+}
+
+.project-image-div {
+	
+	
+}
+/* For mobile images need to be same 
+	aspect ratio */
+.project-image-div img {
+	width: 100%;
+
+}
+
+
+
+.project-details {
+
+}
+
+.project-title {
+
+}
+
+.project-blurb {
+
+}
+.project-ul {
+
+}
+
+/* Add breakpoint at 441 and above 
+for making text in main div larger */
+
+@media only screen and (min-width: 900px) {
+	.project {
+		display: flex;
+		flex-direction: row;
+	}
+	.project-image-div, .project-details {
+		width: 50%;
+	}
+	.project-image-div img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
 }
