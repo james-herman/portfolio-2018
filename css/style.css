@@ -128,14 +128,20 @@ h1 {
 
 
 .project-details {
+	padding: 6%;
 
 }
 
 .project-title {
-
+	font-family: 'Lato', sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
 }
 
 .project-blurb {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding-top: 4%;
 
 }
 .project-ul {
