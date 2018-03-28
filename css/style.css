@@ -177,7 +177,12 @@ h1 {
 	font-size: 14px;
 	line-height: 1.5;
 	padding-top: 4%;
-
+}
+.project-blurb a {
+	font-weight: bold;
+}
+.project-blurb a:hover {
+	color: gray;
 }
 
 
@@ -217,6 +222,19 @@ footer {
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	padding: 20px 5%;
+}
+.footer-img {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 8px
+  
+}
+.footer-img img {
+	width: 20px;
+	height: 20px;
+}
+.copyright {
+	padding-top: 10px;
 }
 
 /* Add breakpoint at 440 and above 

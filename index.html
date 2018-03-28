@@ -40,19 +40,19 @@
 				</div>
 						<div class="contact-links">
 							<div>
-								<a href="">
+								<a href="mailto:herman.james@gmail.com">
 									<img src="img/email.png" class="button-icon">
 								 	email
 								 </a>
 							</div>
 							<div>	
-								<a href="">
+								<a href="https://www.linkedin.com/in/james-herman">
 									<img src="img/in.png" class="button-icon">
 									linkedin
 								</a>
 							</div>
 							<div>
-								<a href="">
+								<a href="james-herman-resume.pdf">
 									<img src="img/download.png" class="button-icon">
 							 		resume
 							 	</a>
@@ -211,10 +211,29 @@
 	<!-- Footer Divs -->
 
 	<footer>
-		<div>
-			Name and contact link icons here
+		<div class="footer-links">
+  			<a href="mailto:herman.james@gmail.com" class="footer-img">
+    			<img src="img/email.png" alt="email" />
+  			</a>
+   			<a href="https://www.linkedin.com/in/james-herman" class="footer-img">
+    			<img  src="img/in.png" alt="linkedin"/>
+  			</a>   
+   			<a href="https://github.com/james-herman" class="footer-img">
+    			<img src="img/github.png" alt="github" />
+  			</a>
+		</div>
+		<div class="copyright">
+  			&#169; <span id="year"></span>James Herman
 		</div>	
 	</footer>
 
+
+	<script>
+		
+		var d = new Date();
+
+		document.getElementById("year").innerHTML = d.getFullYear() + " ";
+	
+	</script>	
 
 </body>
